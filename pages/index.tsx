@@ -36,7 +36,6 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Next App</title>
         <meta
           name="google-site-verification"
           content="6E2NiktBTKvD7_ylUhl-mQg8oBNSGD3rOQWqJvoYZ0I"
