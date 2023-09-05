@@ -35,21 +35,13 @@ const Home = () => {
 
   return (
     <>
-      <head>
-        <meta
-          name="google-site-verification"
-          content="6E2NiktBTKvD7_ylUhl-mQg8oBNSGD3rOQWqJvoYZ0I"
-        />
-      </head>
-      <body>
-        <InfoModal visible={isOpen} onClose={closeModal} />
-        <Navbar />
-        <Billboard />
-        <div className="pb-40">
-          <MovieList title="Trending Now" data={movies} />
-          <MovieList title="My List" data={favorites} />
-        </div>
-      </body>
+      <InfoModal visible={isOpen} onClose={closeModal} />
+      <Navbar />
+      <Billboard />
+      <div className="pb-40">
+        <MovieList title="Trending Now" data={movies} />
+        <MovieList title="My List" data={favorites} />
+      </div>
     </>
   );
 };
