@@ -48,14 +48,15 @@ const Navbar = () => {
           showBackground ? "bg-zinc-900 bg-opacity-90" : ""
         }`}
       >
+        <h1>New Movi</h1>
         {/* <img src="/images/logo.png" className="h-4 lg:h-7" alt="Logo" /> */}
         <div className="flex-row ml-8 gap-7 hidden lg:flex">
           <NavbarItem label="Home" active />
           <NavbarItem label="Series" />
           <NavbarItem label="Films" />
           <NavbarItem label="New & Popular" />
-          {/* <NavbarItem label="My List" />
-          <NavbarItem label="Browse by Languages" /> */}
+          <NavbarItem label="My List" />
+          <NavbarItem label="Browse by Languages" />
         </div>
         <div
           onClick={toggleMobileMenu}
