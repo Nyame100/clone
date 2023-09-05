@@ -35,12 +35,12 @@ const Home = () => {
 
   return (
     <>
-      <Head>
+      <head>
         <meta
           name="google-site-verification"
           content="6E2NiktBTKvD7_ylUhl-mQg8oBNSGD3rOQWqJvoYZ0I"
         />
-      </Head>
+      </head>
       <body>
         <InfoModal visible={isOpen} onClose={closeModal} />
         <Navbar />
