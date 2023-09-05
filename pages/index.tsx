@@ -36,12 +36,13 @@ const Home = () => {
   return (
     <>
       <Head>
+        <title>Next App</title>
         <meta
           name="google-site-verification"
           content="6E2NiktBTKvD7_ylUhl-mQg8oBNSGD3rOQWqJvoYZ0I"
         />
       </Head>
-      <main>
+      <body>
         <InfoModal visible={isOpen} onClose={closeModal} />
         <Navbar />
         <Billboard />
@@ -49,7 +50,7 @@ const Home = () => {
           <MovieList title="Trending Now" data={movies} />
           <MovieList title="My List" data={favorites} />
         </div>
-      </main>
+      </body>
     </>
   );
 };
